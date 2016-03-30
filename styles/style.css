@@ -1,0 +1,73 @@
+p{
+	margin: 10px 0;
+}
+h1{
+	font-size: 20px;
+	color: #000;
+	font-weight: bold;
+	margin: 10px 0;
+}
+h2{
+	color:#2A78E4;
+	font-size: 17px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+h3{
+	color: #14A024;
+	font-weight: bold;
+	font-size: 15px;
+	margin: 10px 0;
+}
+h4{
+	color:#DA3D2A;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+.coverParagraph{
+	background: antiquewhite;
+	border: 2px solid #000;
+	width: 100%;
+	padding-bottom:10px;
+	margin-bottom: 15px;
+}
+.strong{
+	font-weight: bold;
+}
+.red{
+	color: red;
+}
+.underline{
+	text-decoration: underline;
+}
+.dash{
+	text-decoration: line-through;
+}
+.assigned{
+	text-decoration: none;
+}
+.time{
+	color: red;
+	font-weight: bold;
+}
+main{
+	border-bottom: 1px solid #000;
+}
+nav a.item:first-child {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+nav a.item {
+	border-right: 1px solid #000;
+	padding: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+footer span {
+	font-size: 13px;
+}
+.IEred{
+	color: red;
+}

@@ -1,0 +1,59 @@
+.container {
+	float: left;
+	width: 99%;
+	margin: 5px;
+}
+header{
+	float: left;
+	margin-top: 5px;
+}
+header .title {
+	font-size: 40px;
+	font-weight: bold;
+	margin: 15px;
+}
+.container>nav{
+	float: right;	
+	margin: 20px 10px;
+}
+main{
+	float: left;
+	width: 98%
+}
+main>figure{
+	margin: 10px 20%;
+}
+main>section{
+	float: left;
+	width: 27%;
+	margin: 0 1%;
+}
+main>section:nth-child(2) {
+	width: 40%;
+}
+section figure img{
+	width: 98%;
+}
+footer{
+	float: left;
+	margin: auto;
+	width: 100%;
+}
+footer{
+	text-align: center;
+	margin-top: 15px;
+}
+footer nav {
+	margin-bottom: 10px;
+}
+
+nav a.item:last-child {
+	border-right: none;
+}
+main>figure {
+	margin: 10px 1%;
+	width: 100%;
+}
+main figure img {
+	width: 100%;
+}

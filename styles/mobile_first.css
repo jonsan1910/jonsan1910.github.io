@@ -1,0 +1,101 @@
+
+@media only screen and (min-width : 320px) and (max-width: 1200px) {
+	.container{
+		margin: 0 5px;
+	}
+	header {
+		width: 100%;
+		text-align: center;
+	}
+	.title{
+		font-size: 40px;
+	}
+	.container nav{
+		float: left;
+		width: 100%
+	}
+	a.item{
+		text-transform: uppercase;
+		background: #eee;
+		float: left;
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 1%;
+	}
+	nav a.item{
+		border-right: none;
+		padding: 5px 0;
+	}
+	a.item:first-child{
+		background: #999;
+		text-decoration: none;
+		color: #000;
+	}
+	img{
+		float: left;
+		width: 100%
+	}
+	article{
+		float: left;
+	}
+	h1{
+		font-size: 25px;
+		font-weight: bold;
+	}
+	article p{
+		display: none;
+		margin: 10px 2px;
+	}
+	section article p:nth-child(2){
+		display: block;
+	}
+	h2{
+		color: cornflowerblue;
+		font-size: 20px;
+	}
+	.coverParagraph{
+		background: antiquewhite;
+		border: 2px solid #000;
+		width: 100%;
+		padding-bottom:10px;
+		margin-bottom: 15px;
+	}
+	.strong{
+		font-weight: bold;
+	}
+	.red{
+		color: red;
+	}
+	.underline{
+		text-decoration: underline;
+	}
+	.dash{
+		text-decoration: line-through;
+	}
+	h3{
+		font-size: 18px;
+		color: green;
+		margin-bottom: 15px;
+	}
+	section{
+		float: left;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.line-bottom{
+		border-bottom: 2px solid #000;
+		padding-bottom: 10px;
+	}
+	footer{
+		float: left;
+		width: 100%;
+		text-align: center;
+	}
+	footer span{
+		margin: 0 auto;
+	}
+	footer nav{
+		display: none;
+	}
+}
